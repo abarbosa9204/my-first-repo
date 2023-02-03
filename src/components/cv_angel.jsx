@@ -16,7 +16,6 @@ export default class Cva extends React.Component {
                         </ol>
                     </div>
                 </Nav>
-
                 <Container className={'containter-angel'}>
                     <div className={'main-body'}>
                         <div className={'row gutters-sm'}>
