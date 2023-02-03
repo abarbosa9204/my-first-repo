@@ -1,0 +1,37 @@
+body {
+    background-image: url("../img/angel_fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-angel {
+    background-color: #CE162A;
+}
+
+.breadcrumb-item.active{
+   color: #fff;
+}
+
+body a {
+    color: #000;
+}
+body a:hover {
+   color: #fff;
+}
+
+.card{
+    width: fit-content;
+}
+
+.containter-angel {
+    padding-top: 4rem;
+}
+
+body .containter-angel .main-body .text-cv-angel {
+    color: #CE162A
+}
+
+body .containter-angel .main-body .progress-bar {
+    background-color: #CE162A;
+}
