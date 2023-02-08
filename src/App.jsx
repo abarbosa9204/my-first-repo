@@ -1,16 +1,20 @@
 import React from 'react';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
+import { Prueba } from './components/cv_angel';
 // import { Container, Row, Col, Card } from 'react-bootstrap'
-import Cva from './components/cv_angel'
+//import {prueba} from './components/cv_angel'
 
 function App() {
-  return (    
-      <Cva />    
+  return (
+    <>
+      <div id="id-prueba">
+        <Prueba></Prueba>
+      </div>
+    </>
   );
-
   // const [count, setCount] = useState(0)
 
   // return (
@@ -37,6 +41,23 @@ function App() {
   //     </p>
   //   </div>
   // )
+  // const [nombre, setNombre] = useState()
+  // console.log("este es el nombre", nombre);
+  // setNombre("natalia")
+  // console.log("este es el nombre", nombre);
+  // return (
+  //   <>
+  //     <section >
+  //       <form onSubmit={(e) => { e.preventDefault(); }}>
+  //         <label>
+  //           Nombre :
+  //           <input type="text" name="name" placeholder='ingrese su nombre' value={() => { }} onChange={() => { }}> </input>
+  //         </label>
+  //         <input type="submit" value="submit"></input>
+  //       </form>
+  //     </section>
+  //   </>
+  // );
 }
 
-export default App
+export default App;
